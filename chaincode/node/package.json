@@ -1,0 +1,19 @@
+{
+    "name": "aishield4her-chaincode",
+    "version": "1.0.0",
+    "description": "Forensic logging chaincode for AIShield4Her project",
+    "main": "index.js",
+    "engines": {
+        "node": ">=12",
+        "npm": ">=5"
+    },
+    "scripts": {
+        "start": "fabric-chaincode-node start"
+    },
+    "engine-strict": true,
+    "license": "Apache-2.0",
+    "dependencies": {
+        "fabric-contract-api": "^2.2.0",
+        "fabric-shim": "^2.2.0"
+    }
+}

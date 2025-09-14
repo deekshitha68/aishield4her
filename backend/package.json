@@ -1,0 +1,19 @@
+{
+  "name": "aishield4her-backend",
+  "version": "1.0.0",
+  "description": "Backend API server to interact with the AIShield4Her blockchain.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "author": "AIShield4Her Team",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "fabric-ca-client": "^2.2.20",
+    "fabric-network": "^2.2.18",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
